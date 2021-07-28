@@ -33,11 +33,17 @@ function Contact () {
         }
     }
 
+    // prevent default action of the form Submit button
+    function handleSubmit(e) {
+        e.preventDefault();
+        console.log(formState);
+    }
+
     return (
         <section className="my-5">
             <h1 id="contact-me">Contact Me</h1>
 
-            <form id="contact-form">
+            <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
