@@ -124,6 +124,11 @@ img {
   max-width: 100%;
 }
 
+.headshot {
+  max-width: 20rem;
+  margin: 0rem 2.25rem;
+}
+
 span[role="img"] {
   cursor: default;
 }
