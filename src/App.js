@@ -4,6 +4,7 @@ import About from './components/About';
 import Nav from './components/Nav';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <About></About>
         <Contact></Contact>
         <Portfolio></Portfolio>
+        <Resume></Resume>
       </main>
     </div>
   );
