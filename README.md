@@ -13,7 +13,7 @@
   ![Screenshot](./src/assets/screenshot.png)
 
   ## Contributing
-  Made with love by Becca Wyland.
+  Made with ❤️ by Becca Wyland.
 
   ## Tests
   No tests performed.
