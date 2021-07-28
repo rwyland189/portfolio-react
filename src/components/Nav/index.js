@@ -3,7 +3,9 @@ import React from 'react';
 function Nav(props) {
     const {
         contactSelected,
-        setContactSelected
+        setContactSelected,
+        // portfolioSelected,
+        // setPortfolioSelected
     } = props;
 
     return (
