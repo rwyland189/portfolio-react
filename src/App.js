@@ -9,15 +9,15 @@ import Resume from './components/Resume';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
-  const [portfolioSelected, setPortfolioSelected] = useState(false);
+  // const [portfolioSelected, setPortfolioSelected] = useState(false);
 
   return (
     <div>
       <Nav
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
-        portfolioSelected={portfolioSelected}
-        setPortfolioSelected={setPortfolioSelected}
+        // portfolioSelected={portfolioSelected}
+        // setPortfolioSelected={setPortfolioSelected}
       ></Nav>
 
       <main>
@@ -29,14 +29,14 @@ function App() {
           <Contact></Contact>
         )}
 
-        {!portfolioSelected ? (
+        {/* {!portfolioSelected ? (
           <>
             <About></About>
           </>
         ): (
           <Portfolio></Portfolio>
-        )}
-
+        )} */}
+        <Portfolio></Portfolio>
         <Resume></Resume>
       </main>
     </div>

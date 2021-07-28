@@ -4,8 +4,8 @@ function Nav(props) {
     const {
         contactSelected,
         setContactSelected,
-        portfolioSelected,
-        setPortfolioSelected
+        // portfolioSelected,
+        // setPortfolioSelected
     } = props;
 
     return (
@@ -17,19 +17,19 @@ function Nav(props) {
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <span onClick={() => setContactSelected(false), setPortfolioSelected(false)}>About Me</span>
+                        <span onClick={() => setContactSelected(false)}>About Me</span>
                     </li>
 
                     <li classname="mx-2">
-                        <span onClick={() => setContactSelected(true), setPortfolioSelected(false)}>Contact Me</span>
+                        <span onClick={() => setContactSelected(true)}>Contact Me</span>
                     </li>
 
                     <li classname="mx-2">
-                        <span onClick={() => setPortfolioSelected(true), setContactSelected(false)}>Portfolio</span>
+                        <span onClick={() => setContactSelected(false)}>Portfolio</span>
                     </li>
 
                     <li classname="mx-2">
-                        <span onClick={() => setContactSelected(false), setPortfolioSelected(false)}>Resume</span>
+                        <span onClick={() => setContactSelected(false)}>Resume</span>
                     </li>
                 </ul>
             </nav>
