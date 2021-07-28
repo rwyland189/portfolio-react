@@ -10,6 +10,7 @@
   A portfolio using React that contains About, Contact, Portfolio, and Resume sections.
 
   ### Screenshot
+  ![Screenshot](./src/assets/screenshot.png)
 
   ## Contributing
   Made with love by Becca Wyland.
