@@ -124,10 +124,19 @@ img {
   max-width: 100%;
 }
 
+/* about comp styles */
 .headshot {
   max-width: 20rem;
   margin: 0rem 2.25rem;
+  display: flex;
 }
+
+.about-text {
+  padding: 2rem;
+  display: flex;
+}
+
+/* end about styles */
 
 span[role="img"] {
   cursor: default;
