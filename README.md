@@ -9,6 +9,9 @@
   ## Description
   A portfolio using React that contains About, Contact, Portfolio, and Resume sections.
 
+  ### Deployed App
+  https://rwyland189.github.io/portfolio-react/
+
   ### Screenshot
   ![Screenshot](./src/assets/screenshot.png)
 
