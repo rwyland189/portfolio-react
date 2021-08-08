@@ -3,11 +3,15 @@ import React from 'react';
 function Portfolio () {
     return (
         <section className="my-5">
-            <h1 id="portfolio">Portfoliosss</h1>
+            <h1 id="portfolio">Portfolio</h1>
 
-            <a href="https://bbcm-programs.herokuapp.com/" target="_blank">
+            <div>
+            <a href="https://bbcm-programs.herokuapp.com/" target="_blank" className="bbcm">
                     <h4>BBCM Programs</h4>
+                    <span>MERN SPA</span>
             </a>
+            </div>
+            
                    
         </section>
     );
